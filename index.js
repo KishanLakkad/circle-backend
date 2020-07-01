@@ -40,7 +40,7 @@ var port = process.env.port || 3000
 // server.listen(port);
 
 var server = http.createServer(app).listen(port, function () {
-    console.log('Http App started');
+    console.log('Http App started on', port);
 });
 
 function setupRoutes() {

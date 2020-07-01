@@ -8,7 +8,7 @@ const httpStatus = require('http-status');
 var database = require("./database");
 const cors = require('cors');
 const path = require('path');
-var http = require('http');
+var http = require('https');
 
 var app = express();
 
